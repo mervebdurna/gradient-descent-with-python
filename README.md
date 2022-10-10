@@ -1,1 +1,1 @@
-# dradient-descent-with-python
+# gradient-descent-with-python
