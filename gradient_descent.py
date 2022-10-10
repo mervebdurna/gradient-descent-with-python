@@ -3,9 +3,10 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-
+# read data
 df = pd.read_csv('data\salary_data.csv')
 
+# split X and Y vectors
 x = df['YearsExperience']
 y = df['Salary']
 
