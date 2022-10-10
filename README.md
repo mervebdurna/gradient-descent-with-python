@@ -6,4 +6,7 @@ In this repo, you can find the python implementation of gradient descent to find
 
 The learning rate and the number of iterations are hyperparameters that should define by the user. 
 
-![image](https://user-images.githubusercontent.com/26697128/194860240-faca1ab1-a4f5-453b-8ead-00dfd187c6d5.png)
+# Math Of Gradient Descent
+
+![image](https://user-images.githubusercontent.com/26697128/194860938-7de4225b-93ec-45dd-8c4a-204aa3c3b18f.png)
+![image](https://user-images.githubusercontent.com/26697128/194861013-0d0a412c-b76f-4ef1-a8da-5155ee9d6b94.png)
