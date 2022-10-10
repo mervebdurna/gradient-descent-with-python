@@ -1,6 +1,6 @@
-# gradient-descent-with-python
+# Python Implementation Of Gradient Descent
 
-Gradient descent is an optimization algorithm used to minimize some function by iteratively moving. Gradient descent is used to optimize cost function by updating intercept and coefficient in machine learning and deep learning.
+Gradient descent is an optimization algorithm used to minimize functions by iteratively moving. Gradient descent is used to optimize cost function by updating intercept and coefficient in machine learning and deep learning.
 
 In this repo, you can find the python implementation of gradient descent to find the best regression line that fits data points (salary vs years of experience). 
 
