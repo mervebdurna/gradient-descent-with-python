@@ -7,10 +7,9 @@ df = pd.read_csv('data\salary_data.csv')
 x = df['YearsExperience']
 y = df['Salary']
 
-y_predicted = 12838.39 * x + 2915.65  # The values used are the results of the gradient descent algorithm.
+y_predicted = 12838.39 * x + 2915.65  # The values used are the final results of the gradient descent algorithm.
 test = y - y_predicted
 print(abs(test))
-
 
 # cost functions : mae, mse, rmse
 
@@ -129,7 +128,7 @@ print("RMSE : {} ".format(calculate_rmse(y, y_predicted)))
 print("R2 : {} ".format(calculate_r2(y, y_predicted)))
 print("Adjusted R2 : {} ".format(calculate_adj_r2(y, y_predicted)))
 
-# print mae, mse, rmse, r2, adj_r2 with sklearn library
+# print mae, mse, rmse, r2  with sklearn library
 print("sklearn MAE : {} ".format(mean_absolute_error(y, y_predicted)))
 print("sklearn MSE : {} ".format(mean_squared_error(y, y_predicted)))
 print("sklearn RMSE : {} ".format(mean_squared_error(y, y_predicted, squared=False)))
